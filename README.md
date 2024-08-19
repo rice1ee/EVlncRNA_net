@@ -6,7 +6,8 @@ Due to GitHub's file size limitations, the trained models for EVLncRNA-net can b
 
 [**Google Drive: EVLncRNA-net Trained Models**](https://drive.google.com/drive/folders/1AMV-lyQ5ZyLCmlIyKgFl4C0z0wqtp9-S?usp=sharing)
 
-Please download the models from the provided Google Drive folder.
+Please download the models from the provided Google Drive folder and place the `model` folder into your code directory.
+
 
 # Requirements
 
