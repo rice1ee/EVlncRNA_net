@@ -177,7 +177,7 @@ if __name__ == '__main__':
     model = mynet(label_num=2, K=3, d=3, node_hidden_dim=3,other_feature_dim=128,other_feature_dim_in=2000).to(device)
     train(dataset, model, weighted_sampling=False,batch_size=config.batch_size,random_seed=88,
           learning_rate=config.learning_rate,epoch_n=config.num_epochs,iffcloss=1)#iffcloss老鼠植物为1
-    #如果只跑测试，只保留167和171行即可，其他的几行可以注释掉，不要忘记在跑之前在model的120 121行把kernel_size=(200,4)的第一位数改过来
+    #如果只跑测试，只保留177和181行即可，其他的几行可以注释掉，不要忘记在跑之前在model的120 121行把kernel_size=(200,4)的第一位数改过来
     test(model=model,fasta_file=config.test_x,label_file=config.test_label,
                    feature_file=config.test_fea)
 
